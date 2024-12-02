@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Companion</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>College Companion</h1>
+      <button id="theme-toggle">Toggle Theme</button>
+    </header>
+
+    <nav>
+      <a href="#timetable">Timetable</a>
+      <a href="#todo">To-Do List</a>
+      <a href="#announcements">Announcements</a>
+    </nav>
+
+    <main>
+      <section id="timetable">
+        <h2>Timetable</h2>
+        <p>Keep track of your classes and activities.</p>
+        <table>
+          <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+          <tr>
+            <td>9:00 AM</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>History</td>
+            <td>PE</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </table>
+      </section>
+
+      <section id="todo">
+        <h2>To-Do List</h2>
+        <input type="text" id="task-input" placeholder="Add a new task" />
+        <button id="add-task">Add</button>
+        <ul id="task-list"></ul>
+      </section>
+
+      <section id="announcements">
+        <h2>Announcements</h2>
+        <p>Stay updated with college news and events.</p>
+        <ul>
+          <li>Sports Day on Friday!</li>
+          <li>Submit assignments by 10th December.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 College Companion</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
